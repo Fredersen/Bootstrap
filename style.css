@@ -1,0 +1,31 @@
+div {
+    height: 32px;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+@media screen and (min-width: 768px){
+    div {
+        height:48px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    div {
+        height:56px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    div {
+        height:72px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    div {
+        height:80px;
+    }
+}
